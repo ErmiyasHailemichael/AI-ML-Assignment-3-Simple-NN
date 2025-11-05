@@ -98,3 +98,19 @@ The images below illustrate the model architecture, training progress, sample in
 ![Confusion Matrix](screenshots/confusion_matrix.png)
 *Figure: Confusion matrix for test set predictions.*
 
+## Dataset Information
+
+**MNIST Handwritten Digits:**
+- Training samples: 60,000
+- Test samples: 10,000
+- Image size: 28×28 pixels (grayscale)
+- Classes: 10 (digits 0-9)
+- Source: Automatically downloaded via TensorFlow/Keras
+
+---
+
+## Key Preprocessing Steps
+
+1. **Flattening:** Converted 28×28 2D images to 784-dimensional 1D vectors
+2. **Normalization:** Scaled pixel values from [0, 255] to [0, 1] range
+3. **One-Hot Encoding:** Converted integer labels to categorical format
