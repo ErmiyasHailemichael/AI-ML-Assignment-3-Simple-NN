@@ -2,9 +2,9 @@
 
 ## MNIST Digit Classification using Feedforward Neural Network
 
-**Author:** [Your Name]  
+**Author:** Ermiyas H.
 **Framework:** TensorFlow/Keras  
-**Date:** [Today's Date]  
+**Date:** 04/11/25 
 **Environment:** Python 3.11 (Anaconda tf_env)
 
 ---
@@ -37,10 +37,19 @@
 ---
 
 ## Files
-
-- `AI-ML-Assignment-3-Simple-NN.ipynb` - Complete notebook with code
-- `README.md` - This file
-
+## Project Structure
+```
+AI-ML-Assignment-3-Simple-NN/
+├── AI-ML-Assignment-3-Simple-NN.ipynb    # Main notebook
+├── README.md                              # Documentation
+└── screenshots/                           # Result visualizations
+    ├── sample_data.png
+    ├── model_architecture.png
+    ├── training_progress.png
+    ├── test_results.png
+    ├── sample_predictions.png
+    └── confusion_matrix.png
+```
 ---
 
 ## How to Run
